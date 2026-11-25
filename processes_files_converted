@@ -1,0 +1,12 @@
+10. Practical commands — Your revision sheet
+Keep this table handy.
+Command	Purpose
+gcc -E main.c -o main.i	Preprocess
+gcc -S main.c -o main.s	Generate assembly
+gcc -c main.c -o main.o	Generate object file
+gcc main.o -o main	Link
+./main	Execute
+file main.o	Inspect file format
+objdump -d main.o	Disassemble object code
+nm -u main.o	Inspect undefined symbols
+ldd main	Inspect dynamic dependencies
